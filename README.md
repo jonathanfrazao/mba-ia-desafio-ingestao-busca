@@ -1,6 +1,6 @@
 # Desafio MBA Engenharia de Software com IA - Full Cycle
 
-# Ingestão e Busca Semântica (LangChain + Postgres/pgVector)
+## Ingestão e Busca Semântica (LangChain + Postgres/pgVector)
 
 Aplicação que ingere um PDF no PostgreSQL (pgVector) e responde perguntas via CLI usando somente o conteúdo do PDF.
 
