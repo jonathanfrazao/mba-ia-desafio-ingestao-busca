@@ -29,7 +29,9 @@ Nota: Use o mesmo `OPENAI_EMBEDDING_MODEL` na ingestão e na busca.
 
 ### 2. Subir o banco (pgVector)
 
-Na raiz do projeto:
+> Este projeto **já inclui** um `docker-compose.yml` na raiz com **PostgreSQL + pgVector** (com serviço de bootstrap que cria a extensão `vector` automaticamente).
+
+Na raiz do projeto, execute:
 
 ```bash
 docker compose up -d
