@@ -49,7 +49,11 @@ pip install -r requirements.txt
 
 ## 🚀 Uso
 
-### Ingestão do PDF
+Após concluir as configurações iniciais, siga os passos abaixo para utilizar o projeto: 
+
+### 1. Ingestão do PDF
+
+Execute o script de ingestão para processar o documento PDF:
 
 ```bash
 python src/ingest.py
@@ -61,7 +65,9 @@ Saída final esperada (exemplo):
 [INGEST] Pronto para executar a busca (search/chat).
 ```
 
-### Chat (CLI)
+### 2. Chat (CLI)
+
+Após a conclusão da ingestão, execute o chat CLI para interagir com os dados processados:
 
 ```bash
 python src/chat.py
